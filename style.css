@@ -1,0 +1,344 @@
+@charset "UTF-8";
+/* CSS Document created by Deanna Cook, October 3 2014*/
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFFFFF;
+	background: url(http://image.noelshack.com/fichiers/2014/28/1405162173-dark-noeuds.jpg)no-repeat center center fixed;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	line-height: 1.2em;
+	text-align: left;
+	margin: 0 40px;
+}
+
+/*list styles-------------------------------------  */
+ol {
+    list-style-type: none;
+    text-align: left;
+}
+li {
+    list-style-type: none;
+    text-align: left;
+    margin: 0 50px;
+    padding: 1px;
+}
+
+/* basic text styles ----------------------------  */
+iframe {
+	margin: 0 40px;
+}
+p {
+  	width:450px; 
+  	padding: 10px;
+  	background-color: #080808;  
+	margin: 0 40px;
+	text-align: left;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 50px;
+	padding: 6px 0;
+	font-variant: small-caps;
+	letter-spacing: 0em;
+	line-height: 1em;
+	text-align: left ;
+	margin: 0 40px;
+	
+}
+h2 {
+	font-size: 30px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0em;
+	background-color: #2246FF;
+	text-align: left;
+	margin: 10px 40px;
+}
+h3 {
+	font-size: 27px;
+	letter-spacing: 0em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #2246FF; 
+	padding: 6px 0;
+	font-variant: small-caps;
+	font-style: italic;
+	text-align: left;
+	margin: 0 40px;
+}
+
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #2246FF;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #2246FF;
+	text-decoration: underline;
+}
+a:hover {
+	color: #66FF33;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+	
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #FFFFFF 1px;
+	margin: 0 40px;
+}
+td {
+	padding: 6px;
+	border: solid #FFFFFF 1px;
+	margin: 0 40px;
+}
+th {
+	font-weight: bold;
+	background-color: #2246FF;
+	text-align: left;
+	padding: 6px;
+	border: solid #2246FF 1px;
+	margin: 0 40px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+  border: 0px solid #000;
+  background-color: #080808;
+  overflow: hidden;
+}
+
+/* Header Styles */
+#header{
+  width: 100%;
+  background-color: #080808;
+  padding: 0;
+}
+/* Main content styles */
+#content{
+  width: 580px;
+  background-color: #080808;
+  padding: 0px;
+  float: left; 
+  margin-top: 20px;
+}
+/* Sidebar styles */
+#sidebar {
+  width: 160px;
+  background-color: #080808;
+  padding: 10px 10px;	
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  border: solid #ff0000 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar h1 {
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+#sidebar p {
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  text-align: left;
+}
+#sidebar {
+  width: 160px;
+  background-color: #080808;
+  padding: 10px 10px;	
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  border: solid #ff0000 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar h1 {
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+#sidebar p {
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  text-align: left;
+}
+#sidebar1 {
+  width: 160px;
+  background-color: #080808;
+  padding: 10px 10px;	
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  border: solid #ff8000 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar1 h1 {
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+#sidebar1 p {
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  text-align: left;
+}
+#sidebar2 {
+  width: 160px;
+  background-color: #080808;
+  padding: 10px 10px;	
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  border: solid #ffff00 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar2 h1 {
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+#sidebar2 p {
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  text-align: left;
+}
+#sidebar3 {
+  width: 160px;
+  background-color: #080808;
+  padding: 10px 10px;	
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  border: solid #00ff00 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar3 h1 {
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+#sidebar3 p {
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  text-align: left;
+}
+#sidebar4 {
+  width: 160px;
+  background-color: #080808;
+  padding: 10px 10px;	
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  border: solid #2246FF 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar4 h1 {
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+#sidebar4 p {
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  text-align: left;
+}
+#sidebar5 {
+  width: 160px;
+  background-color: #080808;
+  padding: 10px 10px;	
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  border: solid #8000ff 1px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#sidebar5 h1 {
+  font-size: 1.1em;
+  letter-spacing: .07em;
+  margin: 0;
+  padding: 2px;
+  text-align: center;
+}
+#sidebar5 p {
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  text-align: left;
+}
+/* Lists styles */
+#lists{
+  padding: 20px 0;
+  clear: both;
+}
+/* Footer styles */
+#footer{
+  width: 100%;
+  background-color: #080808;
+  text-align: center;
+  padding: 10px 0;
+  clear: both;
+  
+}
+#footer p {
+	font-size: .7em;
+	margin: 30 40px;
+}
